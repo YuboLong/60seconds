@@ -1,6 +1,7 @@
 # 60seconds
 A simple bash script to analyze Linux performance inspired from [Netflix Linux Performance Analysis in 60,000 Milliseconds blog post](http://techblog.netflix.com/2015/11/linux-performance-analysis-in-60s.html)
 
+中文解释版本
 # Screenshot
 
 ![](http://i.imgbox.com/URQaM9tb.jpg)
@@ -13,7 +14,7 @@ A simple bash script to analyze Linux performance inspired from [Netflix Linux P
 
 Install dependencies, download the script and run it: 
 ``` bash
-wget https://raw.githubusercontent.com/eon01/60seconds/master/60seconds.sh 
+wget https://raw.githubusercontent.com/YuboLong/60seconds/master/60seconds.sh
 
 chmod +x 60seconds.sh
 
@@ -27,6 +28,6 @@ Parameters:
 Run it in one command:
 ``` bash 
 
-wget --quiet https://raw.githubusercontent.com/eon01/60seconds/master/60seconds.sh -O 60seconds.sh; chmod +x ./60seconds.sh; ./60seconds.sh; rm -rf 60seconds.sh
+wget --quiet https://raw.githubusercontent.com/YuboLong/60seconds/master/60seconds.sh -O 60seconds.sh; chmod +x ./60seconds.sh; ./60seconds.sh; rm -rf 60seconds.sh
 
 ```
